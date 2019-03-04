@@ -1,7 +1,7 @@
 {
-	"name": "new",
+	"name": "an-youtube-player-app",
 	"version": "1.0.0",
-	"description": null,
+	"description": "",
 	"keywords": ["#react", "react-components"],
 	"main": "src/index.js",
 	"dependencies": {
