@@ -1,6 +1,7 @@
 import React from "react";
 import SearchBar from "./SearchBar";
 import VideoList from "./VideoList";
+import VideoDetail from "./VideoDetail";
 import youtube from "../components/apis/youtube";
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
 					onVideoSelect={this.onVideoSelect}
 					videos={this.state.videos}
 				/>
+				<VideoDetail selectedVideo={this.state.selectedVideo} />
 			</div>
 		);
 	}
